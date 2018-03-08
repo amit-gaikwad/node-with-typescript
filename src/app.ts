@@ -4,18 +4,18 @@ class App {
   public express:any;
 
   constructor () {
-    this.express = express()
+    this.express = express();
     this.mountRoutes()
   }
 
   private mountRoutes (): void {
-    const router = express.Router()
+    const router = express.Router();
     router.get('/', (req: any, res : any) => {
       res.json({
         message: 'Hello World!'
       })
-    })
-    this.express.use('/', router)
+    });
+    this.express.use('/', router);
   }
 }
 
