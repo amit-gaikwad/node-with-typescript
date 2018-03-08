@@ -1,0 +1,25 @@
+{
+  "name": "node-with-typescript",
+  "version": "1.0.0",
+  "description": "Node.Js Using Typescript",
+  "main": "dist/index.js",
+  "typings": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit3635/node-with-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit3635/node-with-typescript/issues"
+  },
+  "homepage": "https://github.com/amit3635/node-with-typescript#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "typescript" : "2.7.2"
+
+  }
+}
